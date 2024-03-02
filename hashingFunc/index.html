@@ -17,7 +17,7 @@
 					.join("");
 			}
 
-			const input = "Sample Text";
+			const input = prompt("Enter any input");
 			hashFunc(input).then((hashedData) =>
 				console.log(`Input: ${input}\nSHA-256 Hash: ${hashedData}`)
 			);
