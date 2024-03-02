@@ -4,6 +4,8 @@ This is a simple implementation of a cryptographic hash function in Javasacript
 
 This function recieves an input and return the hash of that input
 
+This function uses Web API crypto
+
 ```js=
 async function hashFunc(value) {
     
